@@ -1,14 +1,12 @@
-
 DROP TABLE users;
 
 CREATE TABLE users (
-	Id INT PRIMARY KEY NOT NULL,
+	Id INTEGER PRIMARY KEY NOT NULL,
 	Nome TEXT,
 	Eta	INT,
-	Altezza REAL
+	"Altezza cm" REAL
 );
 
-INSERT INTO users (Id, Nome, Eta, Altezza) VALUES (1, 'Fabrizio', 10, 140.6);
+INSERT INTO users (Nome, Eta, "Altezza cm") VALUES ('Fabrizio', 10, 140.6);
 
 SELECT * FROM users;
-
