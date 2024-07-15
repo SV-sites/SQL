@@ -1,3 +1,4 @@
+
 DROP TABLE users;
 
 CREATE TABLE users (
@@ -10,3 +11,4 @@ CREATE TABLE users (
 INSERT INTO users (Nome, Eta, "Altezza cm") VALUES ('Fabrizio', 10, 140.6);
 
 SELECT * FROM users;
+
