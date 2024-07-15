@@ -23,4 +23,4 @@ CREATE TABLE Users (
 INSERT INTO Users (Name, Email) VALUES ('Koma','koma@gmail.com');
 INSERT INTO Users (Name, Email) VALUES ('Dario', 'dario@gmail.com');
 
-
+SELECT  * FROM Users;
