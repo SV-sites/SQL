@@ -1,0 +1,11 @@
+user_id,name,city,age,email,last_login
+1,Anna,Budapest,28,anna@example.com,
+2,Béla,Szeged,34,bela@example.net,2023-03-25
+3,Csilla,Debrecen,23,csilla@example.com,
+4,Dávid,Pécs,45,david@example.net,2023-03-26
+5,Eszter,Győr,29,eszter@example.com,2023-03-27
+6,Ferenc,Budapest,31,ferenc@example.net,2023-03-28
+7,Gábor,Szeged,19,gabor@example.com,
+8,Hanna,Debrecen,22,hanna@example.net,2023-03-29
+9,István,Pécs,43,istvan@example.com,2023-03-30
+10,József,Győr,38,jozsef@example.net,
