@@ -9,3 +9,5 @@ SELECT * FROM [New Users] LIMIT 5;
 SELECT * FROM [New Users] LIMIT OFFSET 5;
 
 SELECT *, age+1 AS age FROM [New Users];
+
+SELECT city || ' ' ||  name AS Random_veznev FROM [New Users]; 
