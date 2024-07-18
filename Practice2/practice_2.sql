@@ -14,3 +14,4 @@ SELECT city || ' ' ||  name AS Random_veznev FROM [New Users];
 
 -- Delete rows;
 DELETE FROM [New Users] WHERE user_id=11;
+
