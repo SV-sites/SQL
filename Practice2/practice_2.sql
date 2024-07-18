@@ -11,3 +11,6 @@ SELECT * FROM [New Users] LIMIT OFFSET 5;
 SELECT *, age+1 AS age FROM [New Users];
 
 SELECT city || ' ' ||  name AS Random_veznev FROM [New Users]; 
+
+// Delete rows
+DELETE FROM [New Users] WHERE user_id=11;
