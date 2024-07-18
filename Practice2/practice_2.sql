@@ -18,10 +18,30 @@ DELETE FROM [New Users] WHERE user_id=11;
 
 INSERT INTO [New users] (user_id, name, city, age, email, last_login) VALUES (13, 'Mokoko', 'Bp', 38, 'sima@gmail.com', 2024) ;
 
--- Same age order names as ABC
+-- Same age order names as ABC;
 SELECT * FROM [New users]
 ORDER BY age DESC, name;
 
--- Delete rows id bigger 10
+-- Delete rows id bigger 10;
 DELETE FROM [New users] WHERE user_id >10;
+
+
+
+DROP TABLE NewUsers;
+
+-- Create table with id restrinction and then import the CSV all column need to be the same;
+CREATE TABLE NewUsers (
+	user_id INTEGER PRIMARY KEY NOT NULL,
+	name TEXT,
+	city TEXT,
+	age INT,
+	email TEXT,
+	last_login TEXT
+);
+
+-- Rename table;
+ALTER TABLE [New Users]
+RENAME TO NewUsers;
+
+INSERT INTO [Newusers] (name, city, age, email, last_login) VALUES ('Mokoko', 'Budapest', 38, 'sima@gmail.com', 2024) ;
 
