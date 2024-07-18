@@ -15,3 +15,13 @@ SELECT city || ' ' ||  name AS Random_veznev FROM [New Users];
 -- Delete rows;
 DELETE FROM [New Users] WHERE user_id=11;
 
+
+INSERT INTO [New users] (user_id, name, city, age, email, last_login) VALUES (13, 'Mokoko', 'Bp', 38, 'sima@gmail.com', 2024) ;
+
+-- Same age order names as ABC
+SELECT * FROM [New users]
+ORDER BY age DESC, name;
+
+-- Delete rows id bigger 10
+DELETE FROM [New users] WHERE user_id >10;
+
