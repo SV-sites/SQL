@@ -45,6 +45,10 @@ RENAME TO NewUsers;
 
 INSERT INTO [Newusers] (name, city, age, email, last_login) VALUES ('Mokoko', 'Budapest', 38, 'sima@gmail.com', 2024) ;
 
--- Különböző városok duplikálás nélkül;
+-- Diffrent citys without duplication
 SELECT DISTINCT city FROM NewUsers;
+
+-- Diffrent citys without duplication ABC order by city;
+-- (problem with second letter 'Sz');
+ SELECT DISTINCT city FROM NewUsers ORDER BY city;
 
