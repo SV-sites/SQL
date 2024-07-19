@@ -9,3 +9,7 @@ WHERE city='Szeged';
 SELECT * FROM NewUsers
 WHERE city='Szeged' 
 ORDER BY name ASC LIMIT 5 ;
+
+-- Every User hows not from Szeged!
+SELECT * FROM NewUsers
+WHERE city!='Szeged';
