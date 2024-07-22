@@ -13,3 +13,6 @@ ORDER BY name ASC LIMIT 5 ;
 -- Every User hows not from Szeged!
 SELECT * FROM NewUsers
 WHERE city!='Szeged';
+
+
+-- Comment shortcut not working on SQLite GUI interface CTRL+/
