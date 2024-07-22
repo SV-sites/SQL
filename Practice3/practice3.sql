@@ -19,6 +19,9 @@ SELECT * FROM NewUsers
 --WHERE city='Szeged' AND age>20;
 WHERE city='Szeged' AND age BETWEEN 20 AND 75;
 
+SELECT * FROM NewUsers
+WHERE city NOT IN ('Budapest','Szeged');
+
 -- Excercises 3
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
