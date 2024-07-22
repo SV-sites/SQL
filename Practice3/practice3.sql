@@ -33,5 +33,9 @@ WHERE city LIKE 'Buda%';
 SELECT * FROM NewUsers
 WHERE age BETWEEN 18 AND 30;
 
+-- Excercises 5
+-- Find NULL values
+SELECT * FROM NewUsers
+WHERE last_login IS NULL;
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
