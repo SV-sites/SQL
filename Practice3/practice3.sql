@@ -38,4 +38,9 @@ WHERE age BETWEEN 18 AND 30;
 SELECT * FROM NewUsers
 WHERE last_login IS NULL;
 
+-- Percentage not working properly if there are NULL values
+-- DB design decision what for use the NULL value
+SELECT * FROM NewUsers
+WHERE last_login IS NOT NULL;
+
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
