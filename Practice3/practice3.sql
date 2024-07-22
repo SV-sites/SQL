@@ -23,5 +23,9 @@ SELECT * FROM NewUsers
 WHERE city NOT IN ('Budapest','Szeged');
 
 -- Excercises 3
+-- Search in text % => signify any character can follow (same as *)
+SELECT * FROM NewUsers
+WHERE city LIKE 'Buda%';
+
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
