@@ -14,5 +14,9 @@ ORDER BY name ASC LIMIT 5 ;
 SELECT * FROM NewUsers
 WHERE city!='Szeged';
 
+-- Excercises 2
+SELECT * FROM NewUsers
+WHERE city='Szeged' AND age>20;
+
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
