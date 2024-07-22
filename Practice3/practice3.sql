@@ -24,8 +24,14 @@ WHERE city NOT IN ('Budapest','Szeged');
 
 -- Excercises 3
 -- Search in text % => signify any character can follow (same as *)
+-- Database small and big letter setup when the DB created !!
+-- Full text search => search in google for expert REGEX
 SELECT * FROM NewUsers
 WHERE city LIKE 'Buda%';
+
+-- Excercises 4
+SELECT * FROM NewUsers
+WHERE age BETWEEN 18 AND 30;
 
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
