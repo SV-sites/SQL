@@ -44,3 +44,5 @@ SELECT * FROM NewUsers
 WHERE last_login IS NOT NULL;
 
 -- Comment shortcut not working on SQLite GUI interface CTRL+/
+
+-- copy the files from external hdd
