@@ -1,4 +1,5 @@
 
-SELECT * FROM Customers
+SELECT * FROM Experiment
 
-UPDATE Customers SET LastName = 'David';
+UPDATE Experiment SET Name = 'David'
+WHERE Id = 2;
